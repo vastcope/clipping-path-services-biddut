@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Comic Neue, cursive;  
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .col-md-6:nth-of-type(2) {
+      order: 1; /* Text and button section */
+    }
+  
+    .col-md-6:nth-of-type(1) {
+      order: 2; /* Image section */
+    }
+    .container-fluid .row .col h4{
+       text-align: center;
+    }
+    .container-fluid .row .col {
+        width: 100%;
+     }
+  
+  }
+
+
+
+  /* Add this to your CSS file or inside a <style> tag */
+#hero_section{
+        background-color: #C8EBF1;
+}
+
+
+.nav-link{
+    font-size: 22px;
+    margin: 0px 0px 0px 26.667px;
+    color: #253237;
+    font-family: Comic Neue, cursive;  font-weight: 700;  font-style: normal;
+}
+.container-fluid .row .col h4{
+    font-family: Comic Neue, cursive;  font-weight: 700;  font-style: normal;
+}
+
+#why_img{
+    margin: auto;
+    height: 66.66px;
+    width: 66.66px;
+}
+
+.why-choose-us .container .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+
+
+
+  
